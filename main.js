@@ -25,4 +25,5 @@ function isTrianle(sum){
 
 button.addEventListener("click", function buttonIsClicked(){
      calculateSum();
+     console.log("clicked")
 })

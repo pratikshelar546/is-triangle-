@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Montserrat&display=swap");
+
+:root {
+  --background-color: #0284c7;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  font-family: "Arima", cursive;
+  background-color: var(--background-color);
+}
+
+header > h3 {
+    padding: 0rem 1rem;
+    font-size: large;
+  color: white;
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  padding:0rem 0.7rem;
+  color: white;
+}
+.container{
+    text-align: center;
+}
+.angle{
+width: 25%;
+padding: 0.5rem;
+outline: none;
+border: 2px solid var(--background-color);
+border-radius: 17px;
+}
+
+
+.click{
+    display: flex;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--background-color);
+  border: none;
+  outline: none;
+  
+    border-radius: 17px;
+}
+
+.msg{
+    color: var(--background-color);
+}
+
+
+
+
+
+
+
