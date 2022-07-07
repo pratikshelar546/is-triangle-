@@ -63,7 +63,12 @@ border-radius: 17px;
     color: var(--background-color);
 }
 
-
+p{
+    padding: 1rem;
+}
+main h1,h3,strong{
+    color: var(--background-color);
+}
 
 
 
