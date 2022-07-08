@@ -55,6 +55,7 @@ border-radius: 17px;
   background-color: var(--background-color);
   border: none;
   outline: none;
+  color: white;
   
     border-radius: 17px;
 }
