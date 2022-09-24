@@ -5,9 +5,10 @@ const msg = document.querySelector("#ot");
 
 
 function calculateHypotenuse(){
-   const a = angle1.value;
-   const b = angle2.value;
+   const a = Number(angle1.value);
+   const b = Number(angle2.value);
    const sum = Math.sqrt((a*a)+(b*b));
-   msg.innerText="The length of Hypotanouse is " + sum;
+  const ans= sum.toFixed(2);
+   msg.innerText="The length of Hypotanouse is " +ans;
 }
 button.addEventListener("click", calculateHypotenuse);
